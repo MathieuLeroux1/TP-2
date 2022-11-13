@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Play');
+@import url('https://fonts.googleapis.com/css?family=Lora');
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+.main {
+    max-width: 1000px;
+    min-width: 500px;
+    margin: auto;
+    background-color: white;
+}
+
+.headerLayout {
+    display: grid;
+    grid-template-columns: 80px auto;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid lightgray;
+}
+
+.headerLayout img {
+    width: 60px;
+    margin-left: 15px;
+}
+
+.menuLayout {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.menuLayout a {
+    min-width: 80px;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    border-radius: 6px;
+    padding: 4px 20px 4px 20px;
+}
+
+.menuLayout a:hover {
+    color: white;
+    background-color: rgb(106, 161, 224);
+}
+
+.menuLayout a:active {
+    background-color: gray;
+}
+
+.menuLayout .selected {
+    background-color: lightgray;
+}
+
+.title{
+    font-family: "VT323";
+    font-size: 7em;
+    text-align: center;
+    font-weight: 500;
+    color: #7DF9FF;
+}
+.content {
+    padding: 20px;
+    font-family: "Play";
+}
+
+.content img {
+    width: 100%;
+    height:  auto;
+}
+
+.imgAccueil{
+    
+    width: 750px !important;
+    height: auto !important;
+    display: block;
+    margin: auto;
+}
+
+.content p {
+    text-align: justify;
+    font-size: 1.1em;
+    font-family: "Lora";
+    font-stretch: expanded;
+}
+
+h2{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+li{
+    padding: 5px;
+    font-family: "Lora";
+    text-align: justify;
+    font-size: 1.1em;
+}
+
+.contentimg{
+    size-adjust: 25%;
+}
+
+
+.source{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footerTitle{
+    border-bottom: 2px solid lightgray;
+    margin-top: 8%;
+}
+
+.avatar{
+    background-image: url("../images/avatar.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 262px;
+    height: 259px;
+    width: 259px;
+}
+
+.avatarFrame {
+    width: 262px;
+    height: 262px;
+    padding-left: 5px;
+    padding-top: 5px;
+    border-radius: 255px;
+    border: 10px solid blue;
+}
+
+iframe{
+    display: block;
+    align-items: center;
+    margin-left : auto;
+    margin-right: auto;
+    border: none;
+}
+
+.separation{
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr;
+}
